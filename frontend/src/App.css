@@ -1,0 +1,87 @@
+  * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  color: #111;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  background: #1d4ed8;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.app-header h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.app-body {
+  display: flex;
+  flex: 1;
+  gap: 0;
+}
+
+.sidebar {
+  width: 300px;
+  background: white;
+  padding: 1.5rem;
+  border-right: 1px solid #e5e7eb;
+  min-height: calc(100vh - 56px);
+}
+
+.sidebar h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #374151;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.main-content {
+  flex: 1;
+  padding: 1.5rem 2rem;
+}
+
+.project-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  color: #1e0517;
+}
+
+.empty-state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  color: #9ca3af;
+  font-size: 1.1rem;
+}
+
+.info-text {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.error-text {
+  color: #dc2626;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  background: #fee2e2;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
